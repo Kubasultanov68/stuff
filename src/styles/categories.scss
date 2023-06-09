@@ -1,0 +1,18 @@
+.categories {
+  &__form {
+    margin: 30px 0;
+    &-filter {
+      display: flex;
+      align-items: center;
+      column-gap: 20px;
+    }
+    &-input {
+      background: #212123;
+      border-radius: 8px;
+      padding: 12px 24px;
+      outline: none;
+      border: none;
+      color: white;
+    }
+  }
+}
